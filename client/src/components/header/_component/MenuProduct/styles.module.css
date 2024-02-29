@@ -1,0 +1,31 @@
+.menuProdutsCategory {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menuProdutsCategory::after {
+  content: "";
+  background-color: #e5e8ec;
+  height: 20px;
+  width: 1px;
+  display: block;
+  position: absolute;
+  right: 0px;
+}
+
+.menuProduts {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.menuProduts svg {
+  font-size: 24px;
+}
+.menuProduts span {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color-primary);
+}

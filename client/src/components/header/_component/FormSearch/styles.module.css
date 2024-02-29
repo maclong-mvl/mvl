@@ -1,0 +1,50 @@
+.categoryProduct {
+  width: 100%;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 200px 1fr 110px;
+  border: 2px solid var(--boder-color);
+  border-radius: 5px;
+  gap: 8px;
+}
+
+.categoryProduct select,
+.categoryProduct input,
+.categoryProduct button {
+  outline: none;
+  border: none;
+}
+
+.categoryProduct button {
+  border-radius: 0 5px 5px 0;
+  background-color: var(--color-btn);
+  color: var(--color-btn-text);
+  font-weight: 600;
+  cursor: pointer;
+  height: 43px;
+  position: relative;
+  top: -2px;
+}
+
+.categoryProduct select {
+  padding: 0 15px 0;
+  background: transparent;
+}
+
+.categoryProduct input[type="text"] {
+  position: relative;
+  background-color: transparent;
+  padding: 0 15px 0;
+  border-left: 1px solid var(--boder-color);
+}
+
+.categoryProduct select {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--color-primary);
+  font-family: var(--font-family);
+}
+
+.categoryProduct input[type="text"]::placeholder {
+  color: #8d979e;
+}

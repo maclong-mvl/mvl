@@ -1,0 +1,20 @@
+.menuHeaderWrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.menuHeaderWrap ul li {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.menuHeaderWrap {
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.menuItem {
+  color: var(--color-primary);
+}
