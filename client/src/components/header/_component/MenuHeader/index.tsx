@@ -9,8 +9,8 @@ const MENU = [
     link: "/",
   },
   {
-    title: "Cửa hàng",
-    link: "/cua-hang",
+    title: "Về chúng tôi",
+    link: "/ve-chung-toi",
   },
   {
     title: "Sản phẩm",

@@ -47,6 +47,7 @@
 .cart {
   position: relative;
   display: flex;
+  align-items: center;
 }
 
 .wishlist svg,
