@@ -1,0 +1,29 @@
+.menuCategoryProducts {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 0 15px;
+}
+
+.menuCategoryProducts ul li {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #e5e8ec;
+}
+
+.itemMenuCategoryProduct {
+  display: flex;
+  color: var(--color-primary);
+  cursor: pointer;
+  float: none;
+  padding: 0;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 5px;
+}
+
+.menuCategoryProducts ul li:last-child {
+  border-bottom: 1px solid #fff;
+}

@@ -2,8 +2,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Topbar from "@/components/Topbar";
 import type { Metadata } from "next";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
 import "./globals.css";
 
 export const metadata: Metadata = {

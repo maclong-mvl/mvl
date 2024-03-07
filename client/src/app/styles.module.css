@@ -1,0 +1,25 @@
+.sectionOne {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  gap: 20px;
+}
+
+.sliderHome {
+  background-color: #fff;
+  max-width: 1120px;
+}
+
+.sliderWrapSectionOne {
+  display: flex;
+}
+
+.sliderWrapSectionOne img {
+  width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
