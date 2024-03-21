@@ -3,6 +3,11 @@
   padding-bottom: 30px;
 }
 
+.sectionTwo {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
 .row {
   display: grid;
   grid-template-columns: 270px 1fr;
@@ -11,7 +16,7 @@
 
 .sliderHome {
   background-color: #fff;
-  max-width: 1120px;
+  max-width: 1085px;
 }
 
 .sliderWrapSectionOne {
@@ -22,4 +27,5 @@
   width: 100%;
   width: 100%;
   object-fit: cover;
+  border-radius: 8px;
 }

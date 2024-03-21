@@ -4,11 +4,12 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import FacebookFanPage from "../FacebookFanpage";
+import Wraper from "../Wraper";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <div className="container">
+      <Wraper>
         <div className={styles.row}>
           <div className={styles.item}>
             <h3>Giới thiệu về cửa hàng</h3>
@@ -87,7 +88,7 @@ const Footer = () => {
             <FacebookFanPage />
           </div>
         </div>
-      </div>
+      </Wraper>
     </footer>
   );
 };

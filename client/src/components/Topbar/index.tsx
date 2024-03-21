@@ -2,11 +2,12 @@
 import Image from "next/image";
 import { FiChevronDown } from "react-icons/fi";
 import styles from "./styles.module.css";
+import Wraper from "../Wraper";
 
 const Topbar = () => {
   return (
     <div className={styles.topbar}>
-      <div className="container">
+      <Wraper>
         <div className={styles.row}>
           <p className={styles.topbarLeft}>
             Bạn là sinh viên và sinh viên được giảm giá 20%.
@@ -26,7 +27,7 @@ const Topbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Wraper>
     </div>
   );
 };

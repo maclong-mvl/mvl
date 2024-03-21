@@ -8,12 +8,13 @@ import styles from "./styles.module.css";
 import FormSearch from "./_component/FormSearch";
 import MenuProduct from "./_component/MenuProduct";
 import MenuHeader from "./_component/MenuHeader";
+import Wraper from "../Wraper";
 
 const Header = () => {
   return (
     <header>
       <div className={styles.headerTop}>
-        <div className={styles.container}>
+        <Wraper>
           <div className={styles.row}>
             <div className={styles.logo}>
               <Link rel="stylesheet" href="/">
@@ -56,10 +57,10 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Wraper>
       </div>
       <div className={styles.headerBottom}>
-        <div className={styles.container}>
+        <Wraper>
           <div className={styles.row}>
             <MenuProduct />
             <MenuHeader />
@@ -73,7 +74,7 @@ const Header = () => {
               <p>Giảm giá 5% cho đơn hàng đầu tiên của bạn.</p>
             </div>
           </div>
-        </div>
+        </Wraper>
       </div>
     </header>
   );
